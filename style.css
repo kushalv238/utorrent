@@ -27,3 +27,11 @@ a {
     transition: .5s;
     transform: translate(-1px, -1px);
 }
+
+.sec-2 {
+    background-color: rgb(245, 245, 245);
+}
+
+.sec-3 {
+    background-color: rgb(245, 245, 245);
+}
