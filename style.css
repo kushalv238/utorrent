@@ -1,0 +1,27 @@
+body {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sec1 {
+    background-image:  linear-gradient(to bottom, #39394f, #1d1d2a 92%);
+}
+
+.utorrentgreen {
+    color: rgb(118, 184, 63);
+}
+
+.container_ {
+width: 1000px;
+margin: 0px auto;
+}
+
+.downloadbtn {
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: rgb(118, 184, 63);
+    color: white;
+}
