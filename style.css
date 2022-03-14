@@ -14,14 +14,21 @@ a {
     color: rgb(118, 184, 63);
 }
 
-.container_ {
-width: 1000px;
-margin: 0px auto;
+.cont {
+    width: 60%;
+    margin: 0px auto;
 }
 
-.downloadbtn {
+.dl-btn {
     font-size: larger;
     text-transform: uppercase;
     background-color: rgb(118, 184, 63);
     color: white;
+}
+
+.dl-btn:hover {
+    color: white;
+    background-color: #52a310;
+    transition: .5s;
+    transform: translate(-2px, -2px);
 }
