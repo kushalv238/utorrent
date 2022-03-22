@@ -50,7 +50,7 @@ a {
     border-color: rgb(118, 184, 63);
     border-radius: 5px;
     text-transform: uppercase;
-    
+
     background-color: rgb(118, 184, 63);
     color: white;
 }
@@ -82,7 +82,7 @@ a {
     border-image-slice: 1;
 }
 
-.border-box {
+.border-card {
     background: white;
     border: none;
     box-shadow: 2px 2px 45px rgba(0, 0, 0, 0.25);
@@ -128,15 +128,17 @@ a {
     align-items: center;
 }
 
-.wh-pop{
+.wh-pop-1{
     background: transparent;
-    padding: 28px 100px;
-    width: 100%;
-    text-align: center;
-    align-self: center;
+    padding: 38px 0px;
 }
 
-.box-content {
+.wh-pop-2{
+    background: transparent;
+    padding: 27px 0px;
+}
+
+.card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
