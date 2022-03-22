@@ -155,3 +155,12 @@ a {
     text-decoration: underline;
     color: rgb(9, 96, 184);
 }
+
+footer {
+    background-color: #242433;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
