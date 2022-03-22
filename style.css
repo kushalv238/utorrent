@@ -17,6 +17,8 @@ a {
     text-transform: uppercase;
     background-color: rgb(118, 184, 63);
     color: white;
+
+    
 }
 
 .dl-btn:hover {
@@ -26,6 +28,128 @@ a {
     transform: translate(-1px, -1px);
 }
 
+.web-btn {
+    color: rgb(118, 184, 63);
+    background-color: #fff;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+    border-color: rgb(118, 184, 63);
+}
+
+.web-btn:hover {
+    color: red;
+
+    transition: .5s;
+    transform: translate(-1px, -1px);
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cl-btn{
+    border-color: rgb(118, 184, 63);
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+    background-color: rgb(118, 184, 63);
+    color: white;
+}
+
+.cl-btn:hover {
+    color: rgb(118, 184, 63);
+    background: white;
+}
+
 .bg-gr {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 245, 245);
+}
+
+.bg-gr-grad{
+    background-image: linear-gradient(180deg, rgb(245, 245, 245), white);
+}
+
+.panel {
+    background-color: white;
+    box-shadow: #1d1d2a;
+}
+
+.panel-line {
+    width: 120px;
+    height: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: radial-gradient(circle at 50% 0,#b5b5b5,#fff);
+    border-image-slice: 1;
+}
+
+.border-box {
+    background: white;
+    border: none;
+    box-shadow: 2px 2px 45px rgba(0, 0, 0, 0.25);
+}
+
+.tick {
+    padding-left: 0px !important;
+    line-height: 1.6;
+    color: rgb(130, 130, 130);
+    font-size: 15px;
+}
+
+.tick li::before {
+    justify-content: start;
+    
+    content: "\1F5F8";
+    color: black;
+    font-weight: 800;
+    
+    line-height: 25px;
+    font-size: 14px;
+
+    height: 210px !important;
+    width: 100%;
+}
+
+.pr4 {
+    padding-right: 1.5rem !important;
+}
+
+.pop {
+    background: rgb(118, 184, 63);
+    color: white;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.pop-content {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.wh-pop{
+    background: transparent;
+    padding: 28px 100px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    padding: 10px 0px 100px 0px;
+}
+
+.torrLink {
+    color: dodgerblue;
+}
+
+.torrLink:hover {
+    text-decoration: underline;
+    color: rgb(9, 96, 184);
 }
